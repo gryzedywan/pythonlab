@@ -1,13 +1,13 @@
-animals = []
+zwierzeta = []
 
-animals.append('kot')
-animals.append('pies')
-animals.append('chomik')
-animals.append('lew')
-animals.append('foka')
+zwierzeta.append('kot')
+zwierzeta.append('pies')
+zwierzeta.append('chomik')
+zwierzeta.append('lew')
+zwierzeta.append('foka')
 
-animals.sort()
-print(animals)
+zwierzeta.sort()
+print(zwierzeta)
 
-print(animals[0],animals[-1],animals[-2],animals[-3])
-print(len(animals))
+print(zwierzeta[0],zwierzeta[-1],zwierzeta[-2],zwierzeta[-3])
+print(len(zwierzeta))
