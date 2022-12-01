@@ -1,0 +1,17 @@
+import numpy as np
+
+tab1 = np.zeros((3,3))
+tab3 = np.zeros((3,3))
+tab4 = np.zeros((3,3))
+tab5 = np.zeros((3,3))
+tab2 = np.zeros((3,3))
+tab1[1:,:2].fill(1)
+tab2[:3,2:3].fill(1)
+tab3[:2,:3].fill(1)
+tab4[:2,:1].fill(1)
+tab5[:2,1:3].fill(1)
+print(tab1)
+print(tab2)
+print(tab3)
+print(tab4)
+print(tab5)
